@@ -1,0 +1,32 @@
+$ht1: 40px;
+$wd1: $ht1;
+$borderWidth: 0.5px;
+$totalHeight: 10 * ($ht1 + 4 * $borderWidth);
+$totalwidth: 10 * ($wd1 + 4 * $borderWidth);
+.grid {
+  height: $totalHeight;
+  width: $totalwidth;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: grey;
+  box-sizing: border-box;
+}
+
+.grid div {
+  height: $ht1;
+  width: $wd1;
+  border: $borderWidth solid black;
+}
+
+.checked {
+  background-color: red;
+}
+
+.boom {
+  background-color: orange;
+}
+.bomb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
