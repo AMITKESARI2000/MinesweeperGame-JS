@@ -1,6 +1,6 @@
 .grid {
-  height: 416 px;
-  width: 416px;
+  height: 420px;
+  width: 420px;
   display: flex;
   flex-wrap: wrap;
   background-color: grey;
@@ -20,6 +20,7 @@
 .boom {
   background-color: orange;
 }
+
 .bomb {
   display: flex;
   justify-content: center;
