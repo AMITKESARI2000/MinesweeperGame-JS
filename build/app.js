@@ -91,6 +91,7 @@ function addFlag(square) {
     if (!square.classList.contains('flag')) {
       square.classList.add('flag');
       square.innerHTML = '🎌';
+      square.classList.add('flagstyle');
       flags++;
       checkForWin();
     } else {

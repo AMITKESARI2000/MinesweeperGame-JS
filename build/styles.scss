@@ -16,6 +16,9 @@ $totalwidth: 10 * ($wd1 + 4 * $borderWidth);
   height: $ht1;
   width: $wd1;
   border: $borderWidth solid black;
+  &:hover {
+    background-color: #23e05c;
+  }
 }
 
 .checked {
@@ -26,6 +29,11 @@ $totalwidth: 10 * ($wd1 + 4 * $borderWidth);
   background-color: orange;
 }
 .bomb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flagstyle {
   display: flex;
   justify-content: center;
   align-items: center;
