@@ -13,6 +13,10 @@
   border: 0.5px solid black;
 }
 
+.grid div:hover {
+  background-color: #23e05c;
+}
+
 .checked {
   background-color: red;
 }
@@ -22,6 +26,12 @@
 }
 
 .bomb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flagstyle {
   display: flex;
   justify-content: center;
   align-items: center;
